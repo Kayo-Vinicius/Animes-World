@@ -1,0 +1,82 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background-color: #101019;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+	color: white;
+	text-align: center;
+}
+.cabecalho{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.menu{
+	display: flex;
+}
+.menu li{
+	margin-left: 15px;
+}
+.menu li a{
+	display: block;
+	padding: 10px;
+	background: #08177B;
+}
+h1{
+	font-size: 50px;
+	color: #10E5ED;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+h2{
+	color: white;
+    font-family: 'Mulish', sans-serif;
+	text-align: center;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.imgAnimes{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.imgAnimes > div{
+	flex: 1 1 300px;
+	margin: 5px;
+	background-color: #02082C;
+}
+.contatos{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100px;
+	margin: 0 auto;
+}
+.contatos > div{
+	flex: 1 1 20px;
+	margin: 5px;
+}
+.sobre{
+	text-align: center;
+}
+.destaque{
+	color: white;
+	font-weight: bold;
+}
+#logo-site{
+	width: 100px;
+	margin-left: 20px;
+}
