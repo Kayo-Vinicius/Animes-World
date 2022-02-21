@@ -78,7 +78,7 @@ img{
 .contatos{
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 100px;
+	max-width: 200px;
 	margin: 0 auto;
 }
 .contatos > div{
