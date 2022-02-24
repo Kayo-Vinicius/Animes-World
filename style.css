@@ -45,7 +45,7 @@ p{
 }
 .menu li a{
 	font-family: 'Mulish', sans-serif;
-	border-radius: 30px;
+	border-radius: 25px;
 	display: block;
 	padding: 12px;
 	background: #08177B;
@@ -58,6 +58,9 @@ img{
 	max-width: 100%;
 	display: block;
 }
+.imgAnimes img{
+	border-radius: 15px 15px 0px 0px;
+}
 .imgAnimes{
 	display: flex;
 	flex-wrap: wrap;
@@ -68,7 +71,7 @@ img{
 	max-width: 300px;
 	border-radius: 15px;
 	flex: 1 1 300px;
-	margin: 5px;
+	margin: 7px;
 	background-color: #02082C;
 }
 .imgAnimes > div:hover{
@@ -95,7 +98,7 @@ img{
 .botao-ver-mais{
 	color: white;
 	font-family: 'Mulish', sans-serif;
-	border-radius: 30px;
+	border-radius: 25px;
 	display: block;
 	padding: 10px;
 	background: #08177B;
@@ -115,4 +118,58 @@ img{
 #logo-site{
 	width: 120px;
 	margin-left: 50px;
+}
+@media screen and (max-width: 600px){
+	.cabecalho{
+	border-radius: 10px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	flex-wrap: wrap;
+	}
+	#logo-site{
+		width: 50px;
+		margin-left: 15px;
+	}
+	menu li a{
+	font-size: 10px;
+	font-family: 'Mulish', sans-serif;
+	border-radius: 5px;
+	display: block;
+	padding: 4px;
+	background: #08177B;
+	}
+	.imgAnimes > div{
+		border-radius: 5px;
+		flex: 1 1 100px;
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 100px;
+		align-items: center;
+		margin: 4px;
+		background-color: #02082C;
+	}
+	.imgAnimes img{
+	border-radius: 5px 5px 0px 0px;
+	}
+	.imgAnimes p{
+	font-size: 8px;
+	
+	margin: auto;
+	}
+	p{
+		font-size: 10px;
+	}
+	h2{
+		font-size: 15px;
+	}
+	.contatos img{
+         max-width: 20px;
+		 margin: 2px;
+	}
+	.sobre p{
+		font-size: 8px;
+	}
 }
